@@ -10,7 +10,9 @@
 
 This project is very, very, very simple. 
 
-It is only for people at IEEE NOVA SB to learn how to use github, teachable machine and python
+It is only for people at IEEE NOVA SB to learn how to use github, teachable machine and python.
+
+Drive with teachable machine model: https://drive.google.com/drive/u/0/folders/1cEA1Mms2e--teOg-xbkUFbon69Svkt3_
 -----
 
 ## Project Description
