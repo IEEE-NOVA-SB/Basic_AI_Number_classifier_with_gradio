@@ -1,18 +1,23 @@
-# Basic_AI_Rock_classifier_with_gradio
+# Basic_AI_Number_classifier_with_gradio
 
 
-![Image of a montain](https://github.com/tiagomonteiro0715/Basic_AI_Rock_classifier_with_gradio/blob/main/undraw_Photo_re_5blb.png
-)
+![Image of a statistics](https://github.com/IEEE-NOVA-SB/Basic_AI_Number_classifier_with_gradio/blob/main/undraw_Statistics_re_kox4.png)
 
 
 
 
+# Notice
+
+This project is very, very, very simple. 
+
+It is only for people at IEEE NOVA SB to learn how to use github, teachable machine and python
+-----
 
 ## Project Description
 
 ### What your application does?
 
-This is a simple web app that uses a machine learning model to take a rock image as input and outputs a dictionary containing the confidence levels of each rock label.
+This is a simple web app that uses a machine learning model to take a Number image as input and outputs a dictionary containing the confidence levels of each number label.
 
 ### Why you used the technologies you used?
 
@@ -91,7 +96,7 @@ pip install -r requirements.txt
   interface.launch(share=True)
 ```
 
-In the last section of code in the basic_ai_rock_classifier.py file:
+In the last section of code in the basic_ai_number_classifier.py file:
 ```
 if __name__ == "__main__":
   # Create the Gradio interface
@@ -99,8 +104,8 @@ if __name__ == "__main__":
     fn=classify_image, 
     inputs=gr.inputs.Image(), 
     outputs=gr.outputs.Textbox(), 
-    title="Basic AI Rock Classifier",
-    description="Simple web app that with a machine learning model takes the image of a rock as input and outputs an histogram with the confidence levels of the predictions",
+    title="Basic AI Number Classifier",
+    description="Simple web app that with a machine learning model takes the image of a number as input and outputs an graph with the confidence levels of the predictions",
     article = "This project is a very simple project not to be used professionaly",
     style=style
     )
@@ -121,15 +126,6 @@ Otherwise, It can be used as the arquitecture for any machine learning classific
 ##### Programmer that wrote the code of this repository
 
 [Tiago Monteiro](https://github.com/tiagomonteiro0715)
-
-##### Geology student from Lisbon University guided the selection of rocks in the images
-
-Tomás Carneiro
-
-Email: tomascarneiro62@gmail.com
-
-
-Instagram: https://www.instagram.com/tomas_carneiro_999_/
 
 </a>
 
